@@ -57,7 +57,7 @@ class EventItem(object):
         return self._title
 
     def location(self):
-        return self._location or 'bla'
+        return self._location
 
     def start_date(self):
         return self._start_date
